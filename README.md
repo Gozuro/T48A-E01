@@ -2,18 +2,18 @@
 
 # Instrucciones
 
-# 1. Importe solo una vez numpy como se muestra a continuación:
+1. Importe numpy solo una vez, como se muestra a continuación:
 ```python
 import numpy as np
 
-# 2. Importante: verifica que tu nombre y número de matrícula esten correctos
+# Importante: verifica que tu nombre y número de matrícula esten correctos
 
 nombre = ""
 numero_de_matricula = 000000
 fecha = '2025-11-09'
 ```
 
-"""1.   El 30 de junio de 1992, la capitalización de mercados de valores del Pacífico y Asia fue: """ 
+# 1.   El 30 de junio de 1992, la capitalización de mercados de valores del Pacífico y Asia fue:   
 
 País |  Capitalización (en miles de millones de dólares)
 -----|---------------------------------------------------
@@ -33,18 +33,23 @@ Australia | 203
 * e) Encuentre la desviación estándar de los datos
 
 regrese una tupla en el siguiente orden:
+```python
 (media, mediana, moda, desv_est)
-"""
+
+en la sigueinte función
 
 def capitalizacion():
     pass
+```
 
-"""2.    La aistencia a los 10 últimos partidos en casa de las Águilas de Baltimore fue la siguiente:
+# 2. Utiliza los datos proporcionados para calcular lo que se te solicita en el docstring
 
+```python
 
+def asistencia_dispersion():
+"""
 
 20100, 24500, 31600, 28400, 49500, 19350, 25600, 30600, 11300, 28560
-
 
 Calcule el rango, la varianza y la desviación stándard para estos datos
 
@@ -52,8 +57,6 @@ Regrese una tupla con el siguiente orden:
 
 (rango, varianza, desv_est)
 """
-
-def asistencia_dispersion():
     pass
 
 """3.    Genere un histograma de las siguientes calificaciones en el examen parcial:
