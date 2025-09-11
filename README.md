@@ -92,7 +92,7 @@ def correlacion():
     pass
 ```
 
-"""5.        La tienda de departamentso Friendly ha sido objeto de muchos robos durante el último mes; pero debido al aumento a las medidas de seguridad, se han detenido 250 ladrones. Se registró el sexo de cada ladrón; también se anotó si se trataba de un primer delito o era reincidente. Los datos se resumen en la siguiente tabla.
+## 6.        La tienda de departamentso Friendly ha sido objeto de muchos robos durante el último mes; pero debido al aumento a las medidas de seguridad, se han detenido 250 ladrones. Se registró el sexo de cada ladrón; también se anotó si se trataba de un primer delito o era reincidente. Los datos se resumen en la siguiente tabla.
 
 Sexo | Primera ofensa | Reincidente
 -----|----------------|------------
@@ -106,9 +106,11 @@ Suponga que se selecciona al azar un ladrón detenido, calcule
 Regrese ambos datos en una tupla con el siguiente orden
 (p_hombre, p_po_hombre)
 """
-
+```python
 def probabilidad_condicional():
-    pass
+    # inserta tu código aquí
+    return (p_hombre, p_po_hombre)
+```
 
 """Contesta las siguientes preguntas
 
