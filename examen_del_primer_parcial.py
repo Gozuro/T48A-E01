@@ -12,7 +12,7 @@ import numpy as np
 # Importante: verifica que tu nombre y número de matrícula esten correctos
 nombre = ""
 numero_de_matricula = 000000
-fecha = '2025-02-26'
+fecha = '2025-11-09'
 
 """1.   El 30 de junio de 1992, la capitalización de mercados de valores del Pacífico y Asia fue:
 
