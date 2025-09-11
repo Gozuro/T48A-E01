@@ -129,7 +129,7 @@ Objetivos del Proyecto:
 Recolección de Datos:
 
 ## 11.    ¿Qué tipo de datos se necesitarán para este proyecto?
-"""
+
 ```python
 def problema_especifico():
     pass
