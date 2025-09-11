@@ -27,10 +27,10 @@ Taiwan | 140
 Hong Kong | 178
 Australia | 203
 
-a) Encuentre la media aritmética de los datos
-b) Encuentre la mediana de los datos
-c) Encuentre la moda de los datos
-e) Encuentre la desviación estándar de los datos
+a) Encuentre la media aritmética de los datos   
+b) Encuentre la mediana de los datos   
+c) Encuentre la moda de los datos   
+e) Encuentre la desviación estándar de los datos   
 
 regrese una tupla en el siguiente orden, como se muestra abajo:   
 
