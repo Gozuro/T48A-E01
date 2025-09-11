@@ -116,17 +116,17 @@ def probabilidad_condicional():
 
 Definición del Problema:
 
-6.     ¿Cuál es el problema específico que se desea resolver con la minería de datos?
-7.     ¿Por qué es importante resolver este problema?
+## 7.     ¿Cuál es el problema específico que se desea resolver con la minería de datos?
+## 8.     ¿Por qué es importante resolver este problema?
 
 Objetivos del Proyecto:
 
-8.     ¿Cuáles son los objetivos principales del anteproyecto?
-9.     ¿Qué resultados esperas obtener al final del proyecto?
+## 9.     ¿Cuáles son los objetivos principales del anteproyecto?
+## 10.     ¿Qué resultados esperas obtener al final del proyecto?
 
 Recolección de Datos:
 
-10.    ¿Qué tipo de datos se necesitarán para este proyecto?
+## 11.    ¿Qué tipo de datos se necesitarán para este proyecto?
 """
 
 def problema_especifico():
