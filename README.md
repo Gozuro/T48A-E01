@@ -3,7 +3,7 @@
 # Instrucciones
 
 # 1. Importe solo una vez numpy como se muestra a continuación:
-´´´python
+```python
 import numpy as np
 
 # 2. Importante: verifica que tu nombre y número de matrícula esten correctos
@@ -133,4 +133,4 @@ def objetivos():
 
 def tipo_de_datos():
     pass
-´´´
+```
