@@ -36,6 +36,7 @@ regrese una tupla en el siguiente orden, como se muestra abajo:
 
 ```python
 def capitalizacion():
+    # inserta tu código aquí
     return (media, mediana, moda, desv_est)
 ```
 
