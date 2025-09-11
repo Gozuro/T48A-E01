@@ -54,11 +54,10 @@ La aistencia a los 10 últimos partidos en casa de las Águilas de Baltimore fue
 
 Calcule el rango, la varianza y la desviación stándard para estos datos
 
-Regrese una tupla con el siguiente orden:
+Regrese una tupla con el siguiente orden, como se muestra a continuación:
 
-(rango, varianza, desv_est)
 """
-    pass
+    return (rango, varianza, desv_est)
 
 """3.    Genere un histograma de las siguientes calificaciones en el examen parcial:
 
