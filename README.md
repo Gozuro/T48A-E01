@@ -13,7 +13,7 @@ numero_de_matricula = 000000
 fecha = '2025-11-09'
 ```
 
-# 1.   El 30 de junio de 1992, la capitalización de mercados de valores del Pacífico y Asia fue:   
+## 1.   El 30 de junio de 1992, la capitalización de mercados de valores del Pacífico y Asia fue:   
 
 País |  Capitalización (en miles de millones de dólares)
 -----|---------------------------------------------------
@@ -40,7 +40,7 @@ def capitalizacion():
     return (media, mediana, moda, desv_est)
 ```
 
-# 2. Utiliza los datos proporcionados para calcular lo que se te solicita en el docstring
+## 2. Utiliza los datos proporcionados para calcular lo que se te solicita en el docstring
 
 ```python
 
