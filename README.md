@@ -102,12 +102,10 @@ Se representa como **P(A|B)** y se lee como “la probabilidad de A dado B”. E
 - Ejemplo cotidiano: Supón que en una escuela, el 80% de los estudiantes practican fútbol y el 35% practican tanto fútbol como baloncesto.
   Si eliges al azar a un estudiante que practica fútbol, ¿cuál es la probabilidad de que también practique baloncesto? Usamos la fórmula:
 
-P(\text{Baloncesto} \mid \text{Fútbol}) = \frac{P(\text{Baloncesto} \cap \text{Fútbol})}{P(\text{Fútbol})}
-
-
-$$ 
-\int_{a}^{b} f(x)\,dx = F(b) - F(a)
 $$
+P(\text{Baloncesto} \mid \text{Fútbol}) = \frac{P(\text{Baloncesto} \cap \text{Fútbol})}{P(\text{Fútbol})}
+$$
+
 
 Es decir, hay un 43.75% de probabilidad de que ese estudiante también juegue baloncesto
 
