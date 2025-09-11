@@ -131,6 +131,9 @@ Recolección de Datos:
 ## 11.    ¿Qué tipo de datos se necesitarán para este proyecto?
 
 ```python
+
+# Regresa una cadena de caracteres en cada función
+
 def problema_especifico():
     pass
 
