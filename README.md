@@ -116,7 +116,11 @@ P(\text{Baloncesto} \mid \text{Fútbol}) = \frac{P(\text{Baloncesto} \cap \text{
 $$
 
 $$
-P(\text{Baloncesto} \mid \text{Fútbol}) = \frac{35} \cap \text{Fútbol})}{P(\text{Fútbol})}
+
+**Cálculo de probabilidad condicional:**
+
+$P(\text{Baloncesto} \mid \text{Fútbol}) = \frac{P(\text{Baloncesto} \cap \text{Fútbol})}{P(\text{Fútbol})} = \frac{35}{80} = 0.4375$
+
 $$
 
 Es decir, hay un 43.75% de probabilidad de que ese estudiante también juegue baloncesto
