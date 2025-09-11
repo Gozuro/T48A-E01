@@ -46,9 +46,11 @@ def capitalizacion():
 
 def asistencia_dispersion():
     """
-    La aistencia a los 10 últimos partidos en casa de las Águilas de Baltimore fue la siguiente:
-    [20100, 24500, 31600, 28400, 49500, 19350, 25600, 30600, 11300, 28560] 
-    Calcule el rango, la varianza y la desviación stándard para estos datos
+    La aistencia a los 10 últimos partidos en casa de las Águilas de Baltimore fue la siguiente:   
+
+    [20100, 24500, 31600, 28400, 49500, 19350, 25600, 30600, 11300, 28560]    
+
+    Calcule el rango, la varianza y la desviación stándard para estos datos   
     Regrese una tupla con el siguiente orden, como se muestra a continuación:
     """
     # inserta tu código aquí
@@ -69,10 +71,7 @@ def histograma_np():
     pass
 ```
 
-"""4.    Analiza la correlación entre los datos de Tamaño y Precio y
-
-Regresa el coeficiente de Pearson
-
+## 5.    Analiza la correlación entre los datos de Tamaño y Precio y Regresa el coeficiente de Pearson
 
    Tamaño (m²) | Precio (MXN)
    ------------|------------
@@ -86,10 +85,11 @@ Regresa el coeficiente de Pearson
           240  |    3289726
           260  |    3472743
           280  |    3779477
-"""
 
+```python
 def correlacion():
     pass
+```
 
 """5.        La tienda de departamentso Friendly ha sido objeto de muchos robos durante el último mes; pero debido al aumento a las medidas de seguridad, se han detenido 250 ladrones. Se registró el sexo de cada ladrón; también se anotó si se trataba de un primer delito o era reincidente. Los datos se resumen en la siguiente tabla.
 
