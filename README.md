@@ -100,12 +100,24 @@ La **probabilidad condicional** es un concepto fundamental en estadística que p
 Se representa como **P(A|B)** y se lee como “la probabilidad de A dado B”. Esta fórmula indica cuánto cambia la probabilidad de A cuando sabemos que B ha ocurrido.
 
 - Ejemplo cotidiano: Supón que en una escuela, el 80% de los estudiantes practican fútbol y el 35% practican tanto fútbol como baloncesto.
-  Si eliges al azar a un estudiante que practica fútbol, ¿cuál es la probabilidad de que también practique baloncesto? Usamos la fórmula:
 
+| **Categoría**                          | **Cantidad de estudiantes** |
+|---------------------------------------|-----------------------------|
+| Practican **solo fútbol**             | 45                          |
+| Practican **solo baloncesto**         | 20                          |
+| Practican **fútbol y baloncesto**     | 35                          |
+| **Total que practican fútbol**        | 80                          |
+| **Total general de estudiantes**      | 100                         |
+
+  Si eliges al azar a un estudiante que practica fútbol, ¿cuál es la probabilidad de que también practique baloncesto? Usamos la fórmula:
+  
 $$
 P(\text{Baloncesto} \mid \text{Fútbol}) = \frac{P(\text{Baloncesto} \cap \text{Fútbol})}{P(\text{Fútbol})}
 $$
 
+$$
+P(\text{Baloncesto} \mid \text{Fútbol}) = \frac{35} \cap \text{Fútbol})}{P(\text{Fútbol})}
+$$
 
 Es decir, hay un 43.75% de probabilidad de que ese estudiante también juegue baloncesto
 
