@@ -2,7 +2,7 @@
 
 Instrucciones:
 
-1. Importe numpy solo una vez, como se muestra a continuación:
+## 1. Importe numpy solo una vez, como se muestra a continuación:
 ```python
 import numpy as np
 
@@ -13,7 +13,7 @@ numero_de_matricula = 000000
 fecha = '2025-11-09'
 ```
 
-## 1.   El 30 de junio de 1992, la capitalización de mercados de valores del Pacífico y Asia fue:   
+## 2.   El 30 de junio de 1992, la capitalización de mercados de valores del Pacífico y Asia fue:   
 
 País |  Capitalización (en miles de millones de dólares)
 -----|---------------------------------------------------
@@ -40,7 +40,7 @@ def capitalizacion():
     return (media, mediana, moda, desv_est)
 ```
 
-## 2. Utiliza los datos proporcionados para calcular lo que se te solicita en el docstring
+## 3. Utiliza los datos proporcionados para calcular lo que se te solicita en el docstring
 
 ```python
 
@@ -55,12 +55,14 @@ def asistencia_dispersion():
     return (rango, varianza, desv_est)
 ```
 
-# 3.    Genere un histograma de las siguientes calificaciones en el examen parcial:
+## 4.    Genere un histograma de las siguientes calificaciones en el examen parcial:
 
-Nota: regrese el histograma generado con la función de numpy, no genere la gráfica
 
 ```python
 def histograma_np():
+    """
+    Nota: regrese el histograma generado con la función de numpy, no genere la gráfica
+    """
     calificaciones = [7.9, 7.8, 7.8, 6.7, 7.6, 8.7, 8.5, 7.3, 6.6, 9.9, 8.4, 7.2,
                      6.6, 5.7, 9.4, 8.4, 7.2, 6.3, 5.1, 4.8, 5.0, 6.1, 7.1, 8.2,
                      9.3, 10.0, 8.9]
