@@ -47,7 +47,7 @@ def asistencia_dispersion():
 """
 La aistencia a los 10 últimos partidos en casa de las Águilas de Baltimore fue la siguiente:
 
-20100, 24500, 31600, 28400, 49500, 19350, 25600, 30600, 11300, 28560
+[20100, 24500, 31600, 28400, 49500, 19350, 25600, 30600, 11300, 28560]
 
 Calcule el rango, la varianza y la desviación stándard para estos datos
 
