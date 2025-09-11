@@ -73,6 +73,7 @@ def histograma_np():
 
 ## 5.    Analiza la correlación entre los datos de Tamaño y Precio y Regresa el coeficiente de Pearson
 
+
    Tamaño (m²) | Precio (MXN)
    ------------|------------
           100  |    1305710
