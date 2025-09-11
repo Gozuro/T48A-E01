@@ -92,6 +92,19 @@ def correlacion():
     pass
 ```
 
+
+
+La **probabilidad condicional** es un concepto fundamental en estadística que permite calcular la probabilidad de que ocurra un evento A, dado que ya ha ocurrido otro evento B. Es especialmente útil cuando los eventos no son independientes y el conocimiento de uno afecta la probabilidad del otro.
+
+## 📘 ¿Qué es la probabilidad condicional?
+Se representa como **P(A|B)** y se lee como “la probabilidad de A dado B”. Esta fórmula indica cuánto cambia la probabilidad de A cuando sabemos que B ha ocurrido.
+
+- Ejemplo cotidiano: Supón que en una escuela, el 80% de los estudiantes practican fútbol y el 35% practican tanto fútbol como baloncesto.
+  Si eliges al azar a un estudiante que practica fútbol, ¿cuál es la probabilidad de que también practique baloncesto? Usamos la fórmula:
+
+$ 𝑃(Baloncesto∣Fútbol)=𝑃(Baloncesto ∩ Fútbol) / 𝑃(Fútbol)=35/80=0.4375 $
+Es decir, hay un 43.75% de probabilidad de que ese estudiante también juegue baloncesto
+
 ## 6.        Resuelve el siguiente ejercicio de probabilidad condicional
 
 La tienda de departamentos Friendly ha sido objeto de muchos robos durante el último mes; pero debido al aumento a las medidas de seguridad, se han detenido 250 ladrones. Se registró el sexo de cada ladrón; también se anotó si se trataba de un primer delito o era reincidente. Los datos se resumen en la siguiente tabla.
