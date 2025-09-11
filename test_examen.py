@@ -9,11 +9,9 @@ class TestNumpyExercises(unittest.TestCase):
 
     def test_matricula(self):
         ''' Verifica número de matrícula'''
-        self.assertEqual(numero_de_matricula in (173644, 179289, 175800, 178361, 177735,
-                                       175056, 177156, 176308, 179598, 173577,
-                                       175344, 178424, 172660, 178646, 177771,
-                                       176635, 177488, 175596, 179287, 173846,
-                                       174074, 175367, 171817),
+        self.assertEqual(numero_de_matricula in (173754, 175454, 177499, 177887, 171877, 179263,
+                                                176522, 171676, 173357, 175932, 173030, 176336,
+                                                177603),
                         True)
     
     def test_capitalizacion(self):
