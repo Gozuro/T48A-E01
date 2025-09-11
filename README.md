@@ -103,6 +103,11 @@ Se representa como **P(A|B)** y se lee como “la probabilidad de A dado B”. E
   Si eliges al azar a un estudiante que practica fútbol, ¿cuál es la probabilidad de que también practique baloncesto? Usamos la fórmula:
 
 $$ 𝑃(Baloncesto∣Fútbol)=𝑃(Baloncesto ∩ Fútbol) / 𝑃(Fútbol) $$
+
+$$ 
+\int_{a}^{b} f(x)\,dx = F(b) - F(a)
+$$
+
 Es decir, hay un 43.75% de probabilidad de que ese estudiante también juegue baloncesto
 
 ## 6.        Resuelve el siguiente ejercicio de probabilidad condicional
