@@ -61,20 +61,66 @@ histogram_data, bin_edges_data = histograma_np()
 print("Histogram data:", histogram_data)
 print("Bin edges:", bin_edges_data)
 
-def correlacion():
-    pass
 
+def correlacion():
+    tamaño = np.array([100, 120, 140, 160, 180, 200, 220, 240, 260, 280])
+    precio = np.array([1305710, 1658277, 1894167, 2136552, 2298267, 2553624, 2780503, 3289726, 3472743, 3779477])
+
+    # Calcular el coeficiente de correlación de Pearson
+    coeficiente_pearson = np.corrcoef(tamaño, precio)[0, 1]
+
+    print(f"Coeficiente de Pearson: {coeficiente_pearson:.6f}")
+    print(f"Correlación: {coeficiente_pearson:.2%}")
+    
+correlacion()
+
+def probabilidad_condicional():
+    # Datos de la tabla
+    hombres_primera = 60
+    hombres_reincidente = 70
+    mujeres_primera = 44
+    mujeres_reincidente = 76
+    
+    # Total de ladrones detenidos
+    total_ladrones = hombres_primera + hombres_reincidente + mujeres_primera + mujeres_reincidente
+    
+    # Probabilidad de que el ladrón sea hombre
+    p_hombre = (hombres_primera + hombres_reincidente) / total_ladrones
+    
+    # Probabilidad de que sea primera ofensa dado que es hombre
+    total_hombres = hombres_primera + hombres_reincidente
+    p_po_hombre = hombres_primera / total_hombres
+    
+    return (p_hombre, p_po_hombre)
+
+# Calcular y mostrar los resultados
+p_hombre, p_po_hombre = probabilidad_condicional()
+print(f"Probabilidad de que sea hombre: {p_hombre:.4f} ({p_hombre*100:.2f}%)")
+print(f"Probabilidad de primera ofensa dado que es hombre: {p_po_hombre:.4f} ({p_po_hombre*100:.2f}%)")
 
 # Regresa una cadena de caracteres en cada función
 
 def problema_especifico():
-    pass
+    respuesta="El problema que se quiere resolver es predecir el exito comercial de los videojuegos"
+    return respuesta
 
 def importancia():
-    pass
+    respuesta="Es importante porque muchos juegos buenos fracasan por mal marketing o por salir en fechas malas, y otros juegos mid se venden como pan caliente. Así podemos ayudar a los devs a no quebrar"
+    return respuesta
 
 def objetivos():
-    pass
+    respuesta="Hacer una IA que sepa qué juegos van a sobresalir, Descubrir qué hace que un juego sea popular, y  Dar tips para que los juegos tengan más éxito en su lanzamiento."
+    return respuesta
 
 def tipo_de_datos():
-    pass
+    respuesta="Se necesitara el presupuesto de los juegos, cuánto tardaron en hacerlos, reviews de usuarios, horas que juega la gente, memes que genera el juego, y datos de ventas en diferentes plataformas"
+    return respuesta
+
+print("Problema específico:")
+print(problema_especifico())
+print("\nImportancia:")
+print(importancia())
+print("\nObjetivos:")
+print(objetivos())
+print("\nTipo de datos:")
+print(tipo_de_datos())
