@@ -13,14 +13,8 @@ def capitalizacion():
     mediana = np.median(arr)
 
     data = Counter(arr)
-    # Check if there's a mode (handle empty array or no mode case if needed)
-    if data:
-        moda = data.most_common(1)[0][0]
-    else:
-        moda = None # Or handle as appropriate for your data
-
-    desv_est = np.std(arr)
-
+    moda = data.most_common(1)[0][0] if data else None
+    desv_est =np.std(arr)
     return (media, mediana, moda, desv_est)
   
 capitalizacion()
@@ -67,10 +61,10 @@ def correlacion():
     precio = np.array([1305710, 1658277, 1894167, 2136552, 2298267, 2553624, 2780503, 3289726, 3472743, 3779477])
 
     # Calcular el coeficiente de correlación de Pearson
-    coeficiente_pearson = np.corrcoef(tamaño, precio)[0, 1]
+    c= np.corrcoef(tamaño, precio)[0, 1]
+    return c
 
-    print(f"Coeficiente de Pearson: {coeficiente_pearson:.6f}")
-    print(f"Correlación: {coeficiente_pearson:.2%}")
+    
     
 correlacion()
 
