@@ -11,11 +11,8 @@ def capitalizacion():
     arr=np.array([17,21,44,50,79,86,140,178,203])
     media = np.mean(arr)
     mediana = np.median(arr)
-
-    data = Counter(arr)
-    moda = data.most_common(1)[0][0] if data else None
     desv_est =np.std(arr)
-    return (media, mediana, moda, desv_est)
+    return (media, mediana, desv_est)
   
 capitalizacion()
 
